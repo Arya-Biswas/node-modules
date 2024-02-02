@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+        * {
+          margin: 0;
+          padding: 0;
+          font-family: "Merriweather", serif;
+          color: #fff;
+        }
+        
+        section {
+          display: block;
+          min-height: 100vh;
+        
+          background: url("https://i.postimg.cc/B61X7pC4/green-house-bg.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        
+        .container {
+          display: block;
+          padding: 20px 20px;
+        }
+        
+        a:link {
+          color: #fff;
+        }
+        a:hover {
+          color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .row {
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        .company {
+          font-size: 1.5em;
+          float: left;
+          padding: 10px;
+        }
+        
+        .menu ion-icon {
+          float: right;
+          font-size: 1.5em;
+        }
+        
+        .menu button {
+          background: transparent;
+          border: none;
+          border-radius: 50%;
+          padding: 10px;
+        }
+        
+        .menu button:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .box {
+          display: flex;
+          margin-top: 20vh;
+          justify-content: space-around;
+          margin-bottom: 20vh;
+        }
+        
+        .left {
+          width: 500px;
+        }
+        
+        .date {
+          font-size: 0.6em;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+        }
+        
+        .title {
+          font-size: 3em;
+          white-space: pre-line;
+          letter-spacing: 1px;
+          margin-top: 10px;
+        }
+        
+        .details {
+          font-size: 0.8em;
+          word-spacing: 4px;
+          line-height: 22px;
+          margin: 20px auto;
+        }
+        
+        .box button {
+          width: 150px;
+          height: 45px;
+          background: transparent;
+          border: 1px solid #fff;
+          border-radius: 50px;
+          font-weight: bolder;
+        }
+        
+        .box button:hover {
+          background: #fff;
+          color: #000;
+          transition: 0.5s;
+        }
+        
+        .right {
+          width: 300px;
+          display: block;
+        }
+        
+        .contact_us {
+          text-align: center;
+          font-size: 0.8em;
+          width: 300px;
+        }
+        
+        .address {
+          font-size: 1em;
+          white-space: pre-wrap;
+          line-height: 25px;
+        }
+        
+        .contact {
+          font-size: 1em;
+          white-space: pre-wrap;
+        }
+        
+        .follow {
+          font-size: 1em;
+          white-space: pre-wrap;
+        }
+        
+        .follow a {
+          font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <div class="content">
+  
+            <div class="row">
+              <div class="company">
+                  Verdura Haven
+              </div>
+              <div class="menu">
+                <button type="button">
+                  <ion-icon name="menu-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+            
+            <div class="box">
+              <div class="left">
+                <h2 class="date">JANUARY 27 • 4PM - 7PM</h2>
+                <h1 class="title">Opening 
+                  Reception
+                </h1>
+                <p class="details">
+                  In January, Verdura Haven proudly welcomes our vibrant Verdura
+                  community with open arms. Our doors are now open on weekdays,
+                  offering you the opportunity to indulge in the bountiful
+                  selection of fresh fruits, vegetables, aromatic herbs, and
+                  exquisite flowers. As an integral part of our commitment to
+                  sustainability, we are excited to introduce a comprehensive
+                  composting program to help nurture our environment. To
+                  commemorate this remarkable milestone, we invite you to join us
+                  in a joyous celebration, accompanied by delectable bites crafted
+                  with care by our talented neighbors at <a href="#">Garden Grove Restaurant</a> .
+                  Take a moment to envision the enchanting experience awaiting you
+                  at Verdura Haven
+                </p>
+                <button type="button">RSVP Today</button>
+              </div>
+              <div class="right">
+                <h3 class="contact_us">CONTACT US</h3>
+                <h2 class="address">
+                  Verdura Haven Garden
+                  123 Blossom Lane 
+                  Greenfield, CA93927
+                  United States
+                </h2>
+                <h2 class="contact">
+                  <a href="mailto:info@verdurahaven.com">info@verdurahaven.com</a>
+                  +1 (555) 123-4567
+                </h2>
+                <div class="follow">
+                  Follow on <a href="#">Facebook</a>
+                </div>
+              </div>
+            </div>          
+  
+          </div>
+  
+        </div>
+      </section>
+  
+      <!-- JS for icons:Start -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <!-- JS for icons:End -->
+</body>
+</html>
